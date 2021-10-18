@@ -21,6 +21,17 @@ export default class NumberGame extends Game {
     const {
       value,
       max_value,
+      attempts,
+      current_guess,
+      last_guess_result,
+      last_guess_time,
+      remaining_attempts,
+      started_at,
+      last_guess_at,
+      finished_at,
+      won,
+      lost,
+      tied,
     } = gameData;
     if (value === undefined) return {
       success: false,

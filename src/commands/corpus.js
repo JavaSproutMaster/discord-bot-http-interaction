@@ -230,18 +230,3 @@ export const corpus = {
     ]
   }
 };
-
-export const wordCategories = [
-  'animals',
-  'food',
-  'countries',
-  'sports',
-  'movies',
-  'technology',
-  'colors',
-  'space',
-  'professions',
-  'music'
-]
-
-export const difficultyLevels = ['easy', 'medium', 'hard'];
