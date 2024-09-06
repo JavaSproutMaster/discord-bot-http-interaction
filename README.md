@@ -1,2 +1,4 @@
-# discord-bot-http-interaction
-This repository is for http interacted bot on discord...
+# **Http discord bot** tutorial
+
+https://ianmitchell.dev/blog/creating-a-discord-http-slash-command-bot-with-fastify
+

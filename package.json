@@ -1,0 +1,25 @@
+{
+  "name": "guess-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "type": "module",
+  "scripts": {
+    "register": "node -r dotenv/config .src/register.js",
+    "start": "nodemon -r dotenv/config ./src/server.js"
+  },
+  "keywords": [
+    "guess-master",
+    "guess"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commonjs": "^0.0.1",
+    "discord-interactions": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "fastify-raw-body": "^4.3.0",
+    "nodemon": "^3.1.4"
+  }
+}
