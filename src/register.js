@@ -19,7 +19,7 @@ const response = await fetch(
   {
     headers: {
       "Content-Type": "application/json",
-      "Authorization": `Bot MTI4MDUwNzI5NjE5NTE1Mzk2MA.GSU6ok.Ne5LO9-aCOJXguDpmUGnuAb9R-CxLCHhFV4iLE`,
+      "Authorization": `Bot ${process.env.TOKEN}`,
     },
     method: "PUT",
     body: JSON.stringify([
