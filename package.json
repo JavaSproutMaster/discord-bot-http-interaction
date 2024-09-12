@@ -5,7 +5,7 @@
   "main": "./src/server.js",
   "type": "module",
   "scripts": {
-    "register": "node -r dotenv/config .src/register.js",
+    "register": "node -r dotenv/config ./src/register.js",
     "start": "nodemon -r dotenv/config ./src/server.js"
   },
   "keywords": [
@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fastify/redis": "^6.2.0",
     "commonjs": "^0.0.1",
     "discord-interactions": "^4.1.0",
     "dotenv": "^16.4.5",
