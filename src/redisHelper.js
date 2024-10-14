@@ -2,19 +2,14 @@ class RedisHelper {
   
   constructor(client) {
     this.client = client;
-    this.expireTime = 5 * 60;
+    this.expireTime = 10 * 60;
   }
-
-  // constructor(client, expireTime) {
-  //   this.client = client;
-  //   this.expireTime = expireTime
-  // }
   
   async set(key, value, expireTime) {
     if (!expireTime)
-      await this.client.set(key, value, 'EX', this.expireTime);
+      await this.client.set(key, value);
     else
-      await this.client.set(key, value, 'EX', expireTime);
+      await this.client.set(key, value);
   }
 
   async get(key) {

@@ -15,7 +15,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fastify/postgres": "^5.2.0",
     "@fastify/redis": "^6.2.0",
+    "axios": "^1.7.7",
     "commonjs": "^0.0.1",
     "discord-interactions": "^4.1.0",
     "dotenv": "^16.4.5",
